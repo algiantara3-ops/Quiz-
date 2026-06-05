@@ -65,7 +65,7 @@ Struktur Node Doubly Linked List:
 | **Alur Traversal** | Linear (berhenti di akhir) | Siklik/Melingkar (tidak ada akhir mutlak) |
 
 **Contoh Use Case Efektif:**
-🎮 **Sistem Round-Robin Scheduling pada OS**
+ **Sistem Round-Robin Scheduling pada OS**
 Setiap proses dalam antrian CPU dihubungkan secara melingkar. Setelah proses terakhir selesai menjalankan time slice-nya, scheduler langsung kembali ke proses pertama tanpa perlu reset pointer ke head, membuat siklus penjadwalan lebih efisien dan natural.
 
 ---
